@@ -1,0 +1,29 @@
+1. Executive Summary
+The e-commerce platform successfully recorded 4.92M in total revenue from 5000 distinct orders, equating to 11K total items sold. The platform demonstrates strong seasonal trends with significant sales peaks early in the year.
+2. Key Performance Indicators (KPIs)
+Metric	Value
+Total Orders	5000
+Total Revenue	4.92M
+Total Quantity Sold	11K
+Total Discounts Applied	124.26K
+3. Financial Performance and Trends
+Monthly Sales Volume (Quantity)
+Sales quantity peaked in February (1473 units), dipped significantly in the mid-year (April-June), and showed a slight recovery towards December (807 units).
+Monthly Revenue Trends (Month Wise Sales Trending)
+Revenue followed a similar pattern, with the highest months generating around 0.60M, while lower months generated around 0.26M.
+4. Top Performing Categories & Products
+Category	Max Sales Qty	Amount (Revenue)	Avg. Customer Rating
+Sports	17.1K	—	—
+Beauty	16.2K	2.3M	3.92
+Fashion	15.2K	—	—
+Home & Garden	1.3K	0.8M	3.94
+Food	1.3K	0.9M	3.83
+Top Rated Category: Books holds the highest average customer rating (3.97 out of 5).
+5. Customer Demographics & Behavior
+Top 10 Customers (by Max Page View & Purchase)
+Customer acquisition seems strong, with several customers (CUST 03232, CUST 02567, etc.) consistently engaging with the platform.
+Geographic Insights
+Istanbul is the leading market, contributing significantly to revenue (1.1M) and maintaining an average delivery time of 6.6 days.
+Device Usage and Payment
+Most Used Device: Mobile devices are likely the top device type based on general e-commerce trends and volume metrics shown in the dashboard visuals.
+Preferred Payment: Credit Card is the dominant payment method (39% of transactions).
