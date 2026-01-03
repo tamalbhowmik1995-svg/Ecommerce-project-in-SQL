@@ -1,0 +1,52 @@
+E-Commerce Data Analysis Project (SQL & Power BI)
+Project Overview
+This project focuses on analyzing e-commerce transaction data to uncover insights into sales performance, customer behavior, and operational trends. The analysis uses SQL for deep-dive querying and Power BI for visual storytelling.
+🛠️ Tech Stack
+Database: [e.g., MySQL / PostgreSQL / SQL Server]
+Visualization: Power BI Desktop
+Analysis Language: SQL (Structured Query Language)
+🔍 SQL Analysis Portfolio
+The following queries were developed to extract key business insights from the Ecommerce table:
+1. Basic Inventory & Sales Tracking
+Full Data View: SELECT * FROM Ecommerce;
+Niche Filtering: View only specific categories (e.g., Toys).
+sql
+SELECT * FROM Ecommerce WHERE product_category='Toys';
+Use code with caution.
+
+Sales Performance: Total items sold across all categories.
+sql
+SELECT SUM(quantity) AS total_product_sales FROM Ecommerce;
+Use code with caution.
+
+2. Customer & Market Insights
+Gender-wise Sales: Analysis of order volume and total spend by gender.
+Age Demographics: identifying which age groups place the most orders.
+Geographic Focus: Counting sales and total revenue per city.
+sql
+SELECT city, COUNT(quantity) AS city_max_sales, SUM(total_amount) AS total_amount
+FROM Ecommerce GROUP BY city ORDER BY city_max_sales DESC;
+Use code with caution.
+
+3. Operational & Payment Trends
+Payment Methods: Identifying the most popular payment types.
+Device Usage: Tracking if customers prefer ordering via Mobile, Tablet, or Desktop.
+Discount Strategy: Finding which categories receive the highest individual discounts.
+4. Top Performers (KPIs)
+High-Value Products: Top 3 sales by total amount.
+Customer Satisfaction: Top 3 products based on customer ratings.
+📊 Power BI Implementation
+To turn these SQL queries into a dashboard:
+Connect Data: Open Power BI Desktop and select Get Data > SQL Server.
+Data Transformation (Power Query):
+Ensure the date column is formatted correctly (Standard ISO: YYYY-MM-DD).
+Note: In your original code, the filter BETWEEN '2023-01-01' AND '2023-31-01' may cause errors in some systems; use '2023-01-31' as the end date for January.
+Key Visuals to Build:
+KPI Cards: Total Sales, Average Order Value (AOV), and Total Customers.
+Donut Chart: Sales breakdown by Payment Method or Gender.
+Bar Chart: Product Category vs. Total Quantity Sold.
+Map Visual: City-wise distribution of total revenue. 
+🚀 How to Run
+Import your dataset into your SQL environment.
+Run the provided queries to verify data integrity.
+Load the table into Power BI to view the interactive dashboard.
